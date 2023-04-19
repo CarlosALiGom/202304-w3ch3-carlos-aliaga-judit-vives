@@ -9,6 +9,8 @@ abstract class Component implements ComponentStructure {
     parentElement.appendChild(this.element);
     this.element.className = className;
   }
+
+  abstract renderHtml(): void;
 }
 
 export default Component;
