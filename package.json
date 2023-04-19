@@ -2,6 +2,7 @@
   "name": "202304-w3ch3-carlos-aliaga-judit-vives",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "build:dev": "tsc -w",

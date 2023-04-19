@@ -6,15 +6,14 @@ module.exports = {
   extends: ["xo", "prettier"],
   overrides: [
     {
-      extends: [["xo-typescript", "prettier"]],
+      extends: ["xo-typescript", "prettier"],
       files: ["*.ts", "*.tsx"],
       rules: {
         "@typescript-eslint/consistent-type-definitions": [
           "error",
           "interface",
         ],
-        "no-used-vars": "error",
-        "no-new": off,
+        "no-unused-vars": "error",
       },
     },
   ],
@@ -24,5 +23,6 @@ module.exports = {
   },
   rules: {
     "no-console": "error",
+    "no-new": "off",
   },
 };
