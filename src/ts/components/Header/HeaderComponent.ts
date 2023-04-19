@@ -1,5 +1,5 @@
 import type { ComponentStructure } from "../../types/types";
-import Component from "../Component/Component";
+import Component from "../Component/Component.js";
 
 class HeaderComponent extends Component implements ComponentStructure {
   constructor(parentElement: Element) {
