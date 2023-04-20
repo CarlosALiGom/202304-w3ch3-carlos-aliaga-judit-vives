@@ -11,6 +11,7 @@ const series: Series = [
     isWatched: true,
     score: 5,
     emmies: 21,
+    state: "watched",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const series: Series = [
     isWatched: false,
     score: 0,
     emmies: 164,
+    state: "pending",
   },
   {
     id: 3,
@@ -32,6 +34,7 @@ const series: Series = [
     isWatched: true,
     score: 5,
     emmies: 116,
+    state: "watched",
   },
   {
     id: 4,
@@ -42,6 +45,7 @@ const series: Series = [
     isWatched: true,
     score: 5,
     emmies: 53,
+    state: "watched",
   },
   {
     id: 5,
@@ -52,6 +56,7 @@ const series: Series = [
     isWatched: false,
     score: 0,
     emmies: 0,
+    state: "pending",
   },
 ];
 

@@ -11,6 +11,7 @@ export interface SeriesStructure {
   isWatched: boolean;
   score: 0 | 1 | 2 | 3 | 4 | 5;
   emmies: number;
+  state: string;
 }
 
 export type Series = SeriesStructure[];
