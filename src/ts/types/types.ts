@@ -2,7 +2,6 @@ export interface ComponentStructure {
   element: Element;
   className: string;
 }
-
 export interface SeriesStructure {
   id: number;
   name: string;
