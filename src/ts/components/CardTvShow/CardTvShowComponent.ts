@@ -1,5 +1,6 @@
 import Component from "../Component/Component.js";
-import type { SeriesStructure } from "../../types/types.js";
+import type { SeriesStructure } from "../../types/types";
+import DeleteButtonComponent from "../DeleteButtonComponent/DeleteButtonComponent.js";
 
 class CardTvShowComponent extends Component {
   serie;
@@ -33,8 +34,8 @@ class CardTvShowComponent extends Component {
               <li class="score__star">
                 <button><i class="icon icon--score far fa-star" title="5/5"></i></button>
               </li>
-            </ul>
-            <button><i class="icon icon--delete fas fa-times-circle"></i></button>`;
+            </ul>`;
+    new DeleteButtonComponent(this.element, `button ${this.serie.name}`);
   }
 }
 
