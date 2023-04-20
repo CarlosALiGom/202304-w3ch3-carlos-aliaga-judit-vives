@@ -1,7 +1,7 @@
 import type { ComponentStructure } from "../../types/types";
 import Component from "../Component/Component.js";
 
-class MainContentComponent extends Component implements ComponentStructure {
+class CardListComponent extends Component implements ComponentStructure {
   constructor(parentElement: Element) {
     super(parentElement, "main", "main-content");
 
@@ -17,4 +17,4 @@ class MainContentComponent extends Component implements ComponentStructure {
   }
 }
 
-export default MainContentComponent;
+export default CardListComponent;
