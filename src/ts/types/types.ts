@@ -3,7 +3,7 @@ export interface ComponentStructure {
   className: string;
 }
 
-export interface SeriesStructure extends ComponentStructure {
+export interface SeriesStructure {
   id: number;
   name: string;
   creator: string;
