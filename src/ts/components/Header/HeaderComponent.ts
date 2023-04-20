@@ -9,7 +9,8 @@ class HeaderComponent extends Component implements ComponentStructure {
   }
 
   renderHtml() {
-    this.element.innerHTML = `<h1 class="main-tittle">My Series</h1>`;
+    this.element.innerHTML = `<h1 class="main-tittle">My Series</h1>
+    <h2 class="main-content__title">Series list</h2>`;
   }
 }
 
