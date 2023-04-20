@@ -1,9 +1,10 @@
 import type { ComponentStructure } from "../../types/types";
-import Component from "../Component/Component";
+import Component from "../Component/Component.js";
 
 class DeleteButtonComponent extends Component implements ComponentStructure {
-  constructor(parentElement: Element) {
-    super(parentElement, "button", "");
+  constructor(parentElement: Element, className: string) {
+    super(parentElement, "button", className);
+    this.className = className;
 
     this.renderHtml();
   }
