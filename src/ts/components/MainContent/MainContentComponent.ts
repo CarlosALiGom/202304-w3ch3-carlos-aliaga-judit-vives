@@ -13,6 +13,7 @@ class MainContentComponent extends Component implements ComponentStructure {
       <section class="list">
         <h3 class="list__title">Pending series</h3>
         <span class="list__info">You have 4 series pending to watch</span>
+        <ul class="series"></ul>
       </section>`;
   }
 }
